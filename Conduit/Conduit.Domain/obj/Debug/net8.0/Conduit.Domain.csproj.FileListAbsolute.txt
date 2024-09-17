@@ -1,0 +1,13 @@
+E:\NetProjects\Conduit\Conduit\Conduit.Domain\bin\Debug\net8.0\Conduit.Domain.deps.json
+E:\NetProjects\Conduit\Conduit\Conduit.Domain\bin\Debug\net8.0\Conduit.Domain.dll
+E:\NetProjects\Conduit\Conduit\Conduit.Domain\bin\Debug\net8.0\Conduit.Domain.pdb
+E:\NetProjects\Conduit\Conduit\Conduit.Domain\obj\Debug\net8.0\Conduit.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\NetProjects\Conduit\Conduit\Conduit.Domain\obj\Debug\net8.0\Conduit.Domain.AssemblyInfoInputs.cache
+E:\NetProjects\Conduit\Conduit\Conduit.Domain\obj\Debug\net8.0\Conduit.Domain.AssemblyInfo.cs
+E:\NetProjects\Conduit\Conduit\Conduit.Domain\obj\Debug\net8.0\Conduit.Domain.csproj.CoreCompileInputs.cache
+E:\NetProjects\Conduit\Conduit\Conduit.Domain\obj\Debug\net8.0\Conduit.Domain.sourcelink.json
+E:\NetProjects\Conduit\Conduit\Conduit.Domain\obj\Debug\net8.0\Conduit.Domain.dll
+E:\NetProjects\Conduit\Conduit\Conduit.Domain\obj\Debug\net8.0\refint\Conduit.Domain.dll
+E:\NetProjects\Conduit\Conduit\Conduit.Domain\obj\Debug\net8.0\Conduit.Domain.pdb
+E:\NetProjects\Conduit\Conduit\Conduit.Domain\obj\Debug\net8.0\ref\Conduit.Domain.dll
+E:\NetProjects\Conduit\Conduit\Conduit.Domain\obj\Debug\net8.0\Conduit.Domain.csproj.AssemblyReference.cache

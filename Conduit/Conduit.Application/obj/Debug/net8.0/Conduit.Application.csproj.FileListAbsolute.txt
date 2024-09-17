@@ -1,0 +1,16 @@
+E:\NetProjects\Conduit\Conduit\Conduit.Application\bin\Debug\net8.0\Conduit.Application.deps.json
+E:\NetProjects\Conduit\Conduit\Conduit.Application\bin\Debug\net8.0\Conduit.Application.dll
+E:\NetProjects\Conduit\Conduit\Conduit.Application\bin\Debug\net8.0\Conduit.Application.pdb
+E:\NetProjects\Conduit\Conduit\Conduit.Application\bin\Debug\net8.0\Conduit.Domain.dll
+E:\NetProjects\Conduit\Conduit\Conduit.Application\bin\Debug\net8.0\Conduit.Domain.pdb
+E:\NetProjects\Conduit\Conduit\Conduit.Application\obj\Debug\net8.0\Conduit.Application.csproj.AssemblyReference.cache
+E:\NetProjects\Conduit\Conduit\Conduit.Application\obj\Debug\net8.0\Conduit.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\NetProjects\Conduit\Conduit\Conduit.Application\obj\Debug\net8.0\Conduit.Application.AssemblyInfoInputs.cache
+E:\NetProjects\Conduit\Conduit\Conduit.Application\obj\Debug\net8.0\Conduit.Application.AssemblyInfo.cs
+E:\NetProjects\Conduit\Conduit\Conduit.Application\obj\Debug\net8.0\Conduit.Application.csproj.CoreCompileInputs.cache
+E:\NetProjects\Conduit\Conduit\Conduit.Application\obj\Debug\net8.0\Conduit.Application.sourcelink.json
+E:\NetProjects\Conduit\Conduit\Conduit.Application\obj\Debug\net8.0\Conduit..ACA29FB9.Up2Date
+E:\NetProjects\Conduit\Conduit\Conduit.Application\obj\Debug\net8.0\Conduit.Application.dll
+E:\NetProjects\Conduit\Conduit\Conduit.Application\obj\Debug\net8.0\refint\Conduit.Application.dll
+E:\NetProjects\Conduit\Conduit\Conduit.Application\obj\Debug\net8.0\Conduit.Application.pdb
+E:\NetProjects\Conduit\Conduit\Conduit.Application\obj\Debug\net8.0\ref\Conduit.Application.dll

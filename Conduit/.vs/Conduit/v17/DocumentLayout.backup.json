@@ -1,0 +1,576 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\NetProjects\\Conduit\\Conduit\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{17FAD10B-29CB-49A5-9CDC-99BFDFBC0156}|Conduit.Domain\\Conduit.Domain.csproj|e:\\netprojects\\conduit\\conduit\\conduit.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17FAD10B-29CB-49A5-9CDC-99BFDFBC0156}|Conduit.Domain\\Conduit.Domain.csproj|solutionrelative:conduit.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17FAD10B-29CB-49A5-9CDC-99BFDFBC0156}|Conduit.Domain\\Conduit.Domain.csproj|e:\\netprojects\\conduit\\conduit\\conduit.domain\\entities\\followuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17FAD10B-29CB-49A5-9CDC-99BFDFBC0156}|Conduit.Domain\\Conduit.Domain.csproj|solutionrelative:conduit.domain\\entities\\followuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17FAD10B-29CB-49A5-9CDC-99BFDFBC0156}|Conduit.Domain\\Conduit.Domain.csproj|e:\\netprojects\\conduit\\conduit\\conduit.domain\\entities\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17FAD10B-29CB-49A5-9CDC-99BFDFBC0156}|Conduit.Domain\\Conduit.Domain.csproj|solutionrelative:conduit.domain\\entities\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8A7747-74AB-41FD-8A0F-249F8CA4F936}|Conduit.Infrastructure\\Conduit.Infrastructure.csproj|e:\\netprojects\\conduit\\conduit\\conduit.infrastructure\\persistance\\conduitdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A8A7747-74AB-41FD-8A0F-249F8CA4F936}|Conduit.Infrastructure\\Conduit.Infrastructure.csproj|solutionrelative:conduit.infrastructure\\persistance\\conduitdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8A7747-74AB-41FD-8A0F-249F8CA4F936}|Conduit.Infrastructure\\Conduit.Infrastructure.csproj|e:\\netprojects\\conduit\\conduit\\conduit.infrastructure\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A8A7747-74AB-41FD-8A0F-249F8CA4F936}|Conduit.Infrastructure\\Conduit.Infrastructure.csproj|solutionrelative:conduit.infrastructure\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8A7747-74AB-41FD-8A0F-249F8CA4F936}|Conduit.Infrastructure\\Conduit.Infrastructure.csproj|e:\\netprojects\\conduit\\conduit\\conduit.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A8A7747-74AB-41FD-8A0F-249F8CA4F936}|Conduit.Infrastructure\\Conduit.Infrastructure.csproj|solutionrelative:conduit.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8A7747-74AB-41FD-8A0F-249F8CA4F936}|Conduit.Infrastructure\\Conduit.Infrastructure.csproj|e:\\netprojects\\conduit\\conduit\\conduit.infrastructure\\utils\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A8A7747-74AB-41FD-8A0F-249F8CA4F936}|Conduit.Infrastructure\\Conduit.Infrastructure.csproj|solutionrelative:conduit.infrastructure\\utils\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8A7747-74AB-41FD-8A0F-249F8CA4F936}|Conduit.Infrastructure\\Conduit.Infrastructure.csproj|e:\\netprojects\\conduit\\conduit\\conduit.infrastructure\\migrations\\conduitdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A8A7747-74AB-41FD-8A0F-249F8CA4F936}|Conduit.Infrastructure\\Conduit.Infrastructure.csproj|solutionrelative:conduit.infrastructure\\migrations\\conduitdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8A7747-74AB-41FD-8A0F-249F8CA4F936}|Conduit.Infrastructure\\Conduit.Infrastructure.csproj|e:\\netprojects\\conduit\\conduit\\conduit.infrastructure\\migrations\\20240916102305_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A8A7747-74AB-41FD-8A0F-249F8CA4F936}|Conduit.Infrastructure\\Conduit.Infrastructure.csproj|solutionrelative:conduit.infrastructure\\migrations\\20240916102305_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17FAD10B-29CB-49A5-9CDC-99BFDFBC0156}|Conduit.Domain\\Conduit.Domain.csproj|e:\\netprojects\\conduit\\conduit\\conduit.domain\\entities\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17FAD10B-29CB-49A5-9CDC-99BFDFBC0156}|Conduit.Domain\\Conduit.Domain.csproj|solutionrelative:conduit.domain\\entities\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17FAD10B-29CB-49A5-9CDC-99BFDFBC0156}|Conduit.Domain\\Conduit.Domain.csproj|e:\\netprojects\\conduit\\conduit\\conduit.domain\\entities\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17FAD10B-29CB-49A5-9CDC-99BFDFBC0156}|Conduit.Domain\\Conduit.Domain.csproj|solutionrelative:conduit.domain\\entities\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17FAD10B-29CB-49A5-9CDC-99BFDFBC0156}|Conduit.Domain\\Conduit.Domain.csproj|e:\\netprojects\\conduit\\conduit\\conduit.domain\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17FAD10B-29CB-49A5-9CDC-99BFDFBC0156}|Conduit.Domain\\Conduit.Domain.csproj|solutionrelative:conduit.domain\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E12467D0-53C4-48F3-A16A-FD91F9FB875E}|Conduit.Application\\Conduit.Application.csproj|e:\\netprojects\\conduit\\conduit\\conduit.application\\users\\commands\\createuser\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E12467D0-53C4-48F3-A16A-FD91F9FB875E}|Conduit.Application\\Conduit.Application.csproj|solutionrelative:conduit.application\\users\\commands\\createuser\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E12467D0-53C4-48F3-A16A-FD91F9FB875E}|Conduit.Application\\Conduit.Application.csproj|e:\\netprojects\\conduit\\conduit\\conduit.application\\users\\commands\\createuser\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E12467D0-53C4-48F3-A16A-FD91F9FB875E}|Conduit.Application\\Conduit.Application.csproj|solutionrelative:conduit.application\\users\\commands\\createuser\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17FAD10B-29CB-49A5-9CDC-99BFDFBC0156}|Conduit.Domain\\Conduit.Domain.csproj|e:\\netprojects\\conduit\\conduit\\conduit.domain\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17FAD10B-29CB-49A5-9CDC-99BFDFBC0156}|Conduit.Domain\\Conduit.Domain.csproj|solutionrelative:conduit.domain\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C5683C-134E-49CD-8561-A089AA56304D}|Conduit.Server\\Conduit.API.csproj|e:\\netprojects\\conduit\\conduit\\conduit.server\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C5683C-134E-49CD-8561-A089AA56304D}|Conduit.Server\\Conduit.API.csproj|solutionrelative:conduit.server\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E12467D0-53C4-48F3-A16A-FD91F9FB875E}|Conduit.Application\\Conduit.Application.csproj|e:\\netprojects\\conduit\\conduit\\conduit.application\\users\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E12467D0-53C4-48F3-A16A-FD91F9FB875E}|Conduit.Application\\Conduit.Application.csproj|solutionrelative:conduit.application\\users\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\NetProjects\\Conduit\\Conduit\\Conduit.Infrastructure\\Migrations\\20240916100500_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Conduit.Infrastructure\\Migrations\\20240916100500_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C5683C-134E-49CD-8561-A089AA56304D}|Conduit.Server\\Conduit.API.csproj|e:\\netprojects\\conduit\\conduit\\conduit.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C5683C-134E-49CD-8561-A089AA56304D}|Conduit.Server\\Conduit.API.csproj|solutionrelative:conduit.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C5683C-134E-49CD-8561-A089AA56304D}|Conduit.Server\\Conduit.API.csproj|e:\\netprojects\\conduit\\conduit\\conduit.server\\conduit.server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{B3C5683C-134E-49CD-8561-A089AA56304D}|Conduit.Server\\Conduit.API.csproj|solutionrelative:conduit.server\\conduit.server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E12467D0-53C4-48F3-A16A-FD91F9FB875E}|Conduit.Application\\Conduit.Application.csproj|e:\\netprojects\\conduit\\conduit\\conduit.application\\users\\commands\\createuser\\createusercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E12467D0-53C4-48F3-A16A-FD91F9FB875E}|Conduit.Application\\Conduit.Application.csproj|solutionrelative:conduit.application\\users\\commands\\createuser\\createusercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E12467D0-53C4-48F3-A16A-FD91F9FB875E}|Conduit.Application\\Conduit.Application.csproj|e:\\netprojects\\conduit\\conduit\\conduit.application\\exceptions\\emailalreadyexistsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E12467D0-53C4-48F3-A16A-FD91F9FB875E}|Conduit.Application\\Conduit.Application.csproj|solutionrelative:conduit.application\\exceptions\\emailalreadyexistsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C5683C-134E-49CD-8561-A089AA56304D}|Conduit.Server\\Conduit.API.csproj|e:\\netprojects\\conduit\\conduit\\conduit.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B3C5683C-134E-49CD-8561-A089AA56304D}|Conduit.Server\\Conduit.API.csproj|solutionrelative:conduit.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8A7747-74AB-41FD-8A0F-249F8CA4F936}|Conduit.Infrastructure\\Conduit.Infrastructure.csproj|e:\\netprojects\\conduit\\conduit\\conduit.infrastructure\\helpers\\authsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A8A7747-74AB-41FD-8A0F-249F8CA4F936}|Conduit.Infrastructure\\Conduit.Infrastructure.csproj|solutionrelative:conduit.infrastructure\\helpers\\authsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E12467D0-53C4-48F3-A16A-FD91F9FB875E}|Conduit.Application\\Conduit.Application.csproj|e:\\netprojects\\conduit\\conduit\\conduit.application\\users\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E12467D0-53C4-48F3-A16A-FD91F9FB875E}|Conduit.Application\\Conduit.Application.csproj|solutionrelative:conduit.application\\users\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E12467D0-53C4-48F3-A16A-FD91F9FB875E}|Conduit.Application\\Conduit.Application.csproj|e:\\netprojects\\conduit\\conduit\\conduit.application\\users\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E12467D0-53C4-48F3-A16A-FD91F9FB875E}|Conduit.Application\\Conduit.Application.csproj|solutionrelative:conduit.application\\users\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C5683C-134E-49CD-8561-A089AA56304D}|Conduit.Server\\Conduit.API.csproj|e:\\netprojects\\conduit\\conduit\\conduit.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B3C5683C-134E-49CD-8561-A089AA56304D}|Conduit.Server\\Conduit.API.csproj|solutionrelative:conduit.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C5683C-134E-49CD-8561-A089AA56304D}|Conduit.Server\\Conduit.API.csproj|e:\\netprojects\\conduit\\conduit\\conduit.server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B3C5683C-134E-49CD-8561-A089AA56304D}|Conduit.Server\\Conduit.API.csproj|solutionrelative:conduit.server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E12467D0-53C4-48F3-A16A-FD91F9FB875E}|Conduit.Application\\Conduit.Application.csproj|e:\\netprojects\\conduit\\conduit\\conduit.application\\exceptions\\usernamealreadyexistsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E12467D0-53C4-48F3-A16A-FD91F9FB875E}|Conduit.Application\\Conduit.Application.csproj|solutionrelative:conduit.application\\exceptions\\usernamealreadyexistsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C5683C-134E-49CD-8561-A089AA56304D}|Conduit.Server\\Conduit.API.csproj|e:\\netprojects\\conduit\\conduit\\conduit.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C5683C-134E-49CD-8561-A089AA56304D}|Conduit.Server\\Conduit.API.csproj|solutionrelative:conduit.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8A7747-74AB-41FD-8A0F-249F8CA4F936}|Conduit.Infrastructure\\Conduit.Infrastructure.csproj|e:\\netprojects\\conduit\\conduit\\conduit.infrastructure\\conduit.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0A8A7747-74AB-41FD-8A0F-249F8CA4F936}|Conduit.Infrastructure\\Conduit.Infrastructure.csproj|solutionrelative:conduit.infrastructure\\conduit.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63F2910-5392-40AA-9784-F1A038CB722E}|conduit.client\\conduit.client.esproj|e:\\netprojects\\conduit\\conduit\\conduit.client\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C63F2910-5392-40AA-9784-F1A038CB722E}|conduit.client\\conduit.client.esproj|solutionrelative:conduit.client\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 31,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConduitDbContextModelSnapshot.cs",
+              "DocumentMoniker": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Infrastructure\\Migrations\\ConduitDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Conduit.Infrastructure\\Migrations\\ConduitDbContextModelSnapshot.cs",
+              "ToolTip": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Infrastructure\\Migrations\\ConduitDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Conduit.Infrastructure\\Migrations\\ConduitDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T10:39:24.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20240916102305_Initial.cs",
+              "DocumentMoniker": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Infrastructure\\Migrations\\20240916102305_Initial.cs",
+              "RelativeDocumentMoniker": "Conduit.Infrastructure\\Migrations\\20240916102305_Initial.cs",
+              "ToolTip": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Infrastructure\\Migrations\\20240916102305_Initial.cs",
+              "RelativeToolTip": "Conduit.Infrastructure\\Migrations\\20240916102305_Initial.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAIAwwB4BAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T10:23:05.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20240916100500_Initial.cs",
+              "DocumentMoniker": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Infrastructure\\Migrations\\20240916100500_Initial.cs",
+              "RelativeDocumentMoniker": "Conduit.Infrastructure\\Migrations\\20240916100500_Initial.cs",
+              "ToolTip": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Infrastructure\\Migrations\\20240916100500_Initial.cs",
+              "RelativeToolTip": "Conduit.Infrastructure\\Migrations\\20240916100500_Initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T10:05:00.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Conduit.Server.http",
+              "DocumentMoniker": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Server\\Conduit.Server.http",
+              "RelativeDocumentMoniker": "Conduit.Server\\Conduit.Server.http",
+              "ToolTip": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Server\\Conduit.Server.http",
+              "RelativeToolTip": "Conduit.Server\\Conduit.Server.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-09-16T09:55:17.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "Conduit.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "Conduit.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T09:50:30.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Server\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Conduit.Server\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Server\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Conduit.Server\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAIAAAAAAAAAAABRwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-11T11:05:45.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Server\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Conduit.Server\\appsettings.Development.json",
+              "ToolTip": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Server\\appsettings.Development.json",
+              "RelativeToolTip": "Conduit.Server\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-11T11:05:36.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "Conduit.Server\\appsettings.json",
+              "ToolTip": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Server\\appsettings.json",
+              "RelativeToolTip": "Conduit.Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-11T11:04:54.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EmailAlreadyExistsException.cs",
+              "DocumentMoniker": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Application\\Exceptions\\EmailAlreadyExistsException.cs",
+              "RelativeDocumentMoniker": "Conduit.Application\\Exceptions\\EmailAlreadyExistsException.cs",
+              "ToolTip": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Application\\Exceptions\\EmailAlreadyExistsException.cs",
+              "RelativeToolTip": "Conduit.Application\\Exceptions\\EmailAlreadyExistsException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T10:15:31.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UsernameAlreadyExistsException.cs",
+              "DocumentMoniker": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Application\\Exceptions\\UsernameAlreadyExistsException.cs",
+              "RelativeDocumentMoniker": "Conduit.Application\\Exceptions\\UsernameAlreadyExistsException.cs",
+              "ToolTip": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Application\\Exceptions\\UsernameAlreadyExistsException.cs",
+              "RelativeToolTip": "Conduit.Application\\Exceptions\\UsernameAlreadyExistsException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T10:15:26.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreateUserCommandValidator.cs",
+              "DocumentMoniker": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Application\\Users\\Commands\\CreateUser\\CreateUserCommandValidator.cs",
+              "RelativeDocumentMoniker": "Conduit.Application\\Users\\Commands\\CreateUser\\CreateUserCommandValidator.cs",
+              "ToolTip": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Application\\Users\\Commands\\CreateUser\\CreateUserCommandValidator.cs",
+              "RelativeToolTip": "Conduit.Application\\Users\\Commands\\CreateUser\\CreateUserCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T08:20:28.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Conduit.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Conduit.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T08:09:24.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Domain\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Conduit.Domain\\Repositories\\IUserRepository.cs",
+              "ToolTip": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Domain\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "Conduit.Domain\\Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T08:09:15.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateUserCommandHandler.cs",
+              "DocumentMoniker": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Application\\Users\\Commands\\CreateUser\\CreateUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "Conduit.Application\\Users\\Commands\\CreateUser\\CreateUserCommandHandler.cs",
+              "ToolTip": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Application\\Users\\Commands\\CreateUser\\CreateUserCommandHandler.cs",
+              "RelativeToolTip": "Conduit.Application\\Users\\Commands\\CreateUser\\CreateUserCommandHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T08:02:01.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateUserCommand.cs",
+              "DocumentMoniker": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Application\\Users\\Commands\\CreateUser\\CreateUserCommand.cs",
+              "RelativeDocumentMoniker": "Conduit.Application\\Users\\Commands\\CreateUser\\CreateUserCommand.cs",
+              "ToolTip": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Application\\Users\\Commands\\CreateUser\\CreateUserCommand.cs",
+              "RelativeToolTip": "Conduit.Application\\Users\\Commands\\CreateUser\\CreateUserCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T07:59:09.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Application\\Users\\UserService.cs",
+              "RelativeDocumentMoniker": "Conduit.Application\\Users\\UserService.cs",
+              "ToolTip": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Application\\Users\\UserService.cs",
+              "RelativeToolTip": "Conduit.Application\\Users\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T07:51:04.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Application\\Users\\IUserService.cs",
+              "RelativeDocumentMoniker": "Conduit.Application\\Users\\IUserService.cs",
+              "ToolTip": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Application\\Users\\IUserService.cs",
+              "RelativeToolTip": "Conduit.Application\\Users\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T07:50:58.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Application\\Users\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "Conduit.Application\\Users\\DTOs\\UserDTO.cs",
+              "ToolTip": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Application\\Users\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "Conduit.Application\\Users\\DTOs\\UserDTO.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T07:40:14.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Server\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Conduit.Server\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Server\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Conduit.Server\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T07:15:06.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Server\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Conduit.Server\\Controllers\\UserController.cs",
+              "ToolTip": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Server\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Conduit.Server\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T07:14:51.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Server\\Program.cs",
+              "RelativeDocumentMoniker": "Conduit.Server\\Program.cs",
+              "ToolTip": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Server\\Program.cs",
+              "RelativeToolTip": "Conduit.Server\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAABEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T10:37:10.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Infrastructure\\Utils\\AuthService.cs",
+              "RelativeDocumentMoniker": "Conduit.Infrastructure\\Utils\\AuthService.cs",
+              "ToolTip": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Infrastructure\\Utils\\AuthService.cs",
+              "RelativeToolTip": "Conduit.Infrastructure\\Utils\\AuthService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T10:29:11.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AuthSettings.cs",
+              "DocumentMoniker": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Infrastructure\\Helpers\\AuthSettings.cs",
+              "RelativeDocumentMoniker": "Conduit.Infrastructure\\Helpers\\AuthSettings.cs",
+              "ToolTip": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Infrastructure\\Helpers\\AuthSettings.cs",
+              "RelativeToolTip": "Conduit.Infrastructure\\Helpers\\AuthSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T10:27:35.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Conduit.Infrastructure.csproj",
+              "DocumentMoniker": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Infrastructure\\Conduit.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Conduit.Infrastructure\\Conduit.Infrastructure.csproj",
+              "ToolTip": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Infrastructure\\Conduit.Infrastructure.csproj",
+              "RelativeToolTip": "Conduit.Infrastructure\\Conduit.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-10T10:26:45.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Domain\\Entities\\Comment.cs",
+              "RelativeDocumentMoniker": "Conduit.Domain\\Entities\\Comment.cs",
+              "ToolTip": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Domain\\Entities\\Comment.cs",
+              "RelativeToolTip": "Conduit.Domain\\Entities\\Comment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T18:03:37.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Favorite.cs",
+              "DocumentMoniker": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Domain\\Entities\\Favorite.cs",
+              "RelativeDocumentMoniker": "Conduit.Domain\\Entities\\Favorite.cs",
+              "ToolTip": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Domain\\Entities\\Favorite.cs",
+              "RelativeToolTip": "Conduit.Domain\\Entities\\Favorite.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T18:03:36.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Domain\\Entities\\Tag.cs",
+              "RelativeDocumentMoniker": "Conduit.Domain\\Entities\\Tag.cs",
+              "ToolTip": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Domain\\Entities\\Tag.cs",
+              "RelativeToolTip": "Conduit.Domain\\Entities\\Tag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T18:03:33.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FollowUser.cs",
+              "DocumentMoniker": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Domain\\Entities\\FollowUser.cs",
+              "RelativeDocumentMoniker": "Conduit.Domain\\Entities\\FollowUser.cs",
+              "ToolTip": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Domain\\Entities\\FollowUser.cs",
+              "RelativeToolTip": "Conduit.Domain\\Entities\\FollowUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T18:02:05.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Conduit.Domain\\Entities\\User.cs",
+              "ToolTip": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "Conduit.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T18:02:03.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConduitDbContext.cs",
+              "DocumentMoniker": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Infrastructure\\Persistance\\ConduitDbContext.cs",
+              "RelativeDocumentMoniker": "Conduit.Infrastructure\\Persistance\\ConduitDbContext.cs",
+              "ToolTip": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Infrastructure\\Persistance\\ConduitDbContext.cs",
+              "RelativeToolTip": "Conduit.Infrastructure\\Persistance\\ConduitDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwBYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T17:59:22.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Article.cs",
+              "DocumentMoniker": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Domain\\Entities\\Article.cs",
+              "RelativeDocumentMoniker": "Conduit.Domain\\Entities\\Article.cs",
+              "ToolTip": "E:\\NetProjects\\Conduit\\Conduit\\Conduit.Domain\\Entities\\Article.cs",
+              "RelativeToolTip": "Conduit.Domain\\Entities\\Article.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T17:59:16.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "index.html",
+              "DocumentMoniker": "E:\\NetProjects\\Conduit\\Conduit\\conduit.client\\src\\index.html",
+              "RelativeDocumentMoniker": "conduit.client\\src\\index.html",
+              "ToolTip": "E:\\NetProjects\\Conduit\\Conduit\\conduit.client\\src\\index.html",
+              "RelativeToolTip": "conduit.client\\src\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-02T10:31:20.334Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

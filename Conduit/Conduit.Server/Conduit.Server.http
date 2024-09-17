@@ -1,0 +1,6 @@
+@Conduit.Server_HostAddress = http://localhost:5276
+
+GET {{Conduit.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
