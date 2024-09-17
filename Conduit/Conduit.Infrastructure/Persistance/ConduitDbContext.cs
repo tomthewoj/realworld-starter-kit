@@ -1,13 +1,16 @@
 ﻿using Conduit.Application.Entities;
+using Conduit.Domain.Constants;
+using Conduit.Infrastructure.Identity;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 
 namespace Conduit.Infrastructure.Persistance
 {
-    public class ConduitDbContext(DbContextOptions<ConduitDbContext> options) : IdentityDbContext<User> (options)
-     {
-        public DbSet<User> Users { get; set; }
+    public class ConduitDbContext(DbContextOptions<ConduitDbContext> options) : IdentityDbContext<User, Role, Guid>(options)
+    {
+       // public DbSet<User> Users { get; set; }
         public DbSet<Comment> Comments { get; set; }
         public DbSet<Favorite> Favorites { get; set; }
         public DbSet<Tag> Tags { get; set; }

@@ -9,10 +9,8 @@ using System.Threading.Tasks;
 
 namespace Conduit.Application.Entities
 {
-    public class User : IdentityUser
+    public class User : IdentityUser<Guid>
     {
-        public Guid Id { get; set; }
-
         public string Username { get; set; } = default!;
         public string Password { get; set; } = default!; //nie zapomnij o enkrypcji
         public string Email { get; set; } = default!;

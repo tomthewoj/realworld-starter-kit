@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Conduit.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51ed7c0456397c452a3a4ff67d7e343c8da419eb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a6740fd85c477046b516ee6b961f0137411a2dd")]
 [assembly: System.Reflection.AssemblyProductAttribute("Conduit.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Conduit.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
