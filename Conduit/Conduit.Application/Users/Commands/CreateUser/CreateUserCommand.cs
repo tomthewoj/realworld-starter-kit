@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Conduit.Application.Users.Commands.CreateUser;
 
-public class CreateUserCommand : IRequest<Guid> //could be a record if I didn't use MediatR
+public class CreateUserCommand : IRequest //could be a record if I didn't use MediatR
 {   
     public string Username { get; set; } = default!;
     public string Password { get; set; } = default!;

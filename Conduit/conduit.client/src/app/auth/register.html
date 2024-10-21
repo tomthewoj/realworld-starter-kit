@@ -16,20 +16,20 @@
           </p>
 
           <ul class="error-messages">
-            <li>That email is already taken</li>
+            <li>That   is already taken</li>
           </ul>
 
           <form>
             <fieldset class="form-group">
-              <input class="form-control form-control-lg" type="text" placeholder="Username" />
+              <input [(ngModel)]="username" name = "username" class="form-control form-control-lg" type="text" placeholder="Username" />
             </fieldset>
             <fieldset class="form-group">
-              <input class="form-control form-control-lg" type="text" placeholder="Email" />
+              <input [(ngModel)]="email" name = "email" class="form-control form-control-lg" type="text" placeholder="Email" />
             </fieldset>
             <fieldset class="form-group">
-              <input class="form-control form-control-lg" type="password" placeholder="Password" />
+              <input [(ngModel)]="password" name = "password" class="form-control form-control-lg" type="password" placeholder="Password"  />
             </fieldset>
-            <button class="btn btn-lg btn-primary pull-xs-right">Sign up</button>
+            <button (click) ="Register()" name="submit" type="button" class="btn btn-lg btn-primary pull-xs-right">Sign up</button>
           </form>
         </div>
       </div>

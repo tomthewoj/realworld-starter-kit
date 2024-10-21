@@ -37,7 +37,7 @@ namespace Conduit.Infrastructure.Migrations
                     b.ToTable("ArticleTag");
                 });
 
-            modelBuilder.Entity("Conduit.Application.Entities.Article", b =>
+            modelBuilder.Entity("Conduit.Domain.Entities.Article", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -74,7 +74,7 @@ namespace Conduit.Infrastructure.Migrations
                     b.ToTable("Articles");
                 });
 
-            modelBuilder.Entity("Conduit.Application.Entities.Comment", b =>
+            modelBuilder.Entity("Conduit.Domain.Entities.Comment", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -105,7 +105,7 @@ namespace Conduit.Infrastructure.Migrations
                     b.ToTable("Comments");
                 });
 
-            modelBuilder.Entity("Conduit.Application.Entities.Favorite", b =>
+            modelBuilder.Entity("Conduit.Domain.Entities.Favorite", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -126,7 +126,7 @@ namespace Conduit.Infrastructure.Migrations
                     b.ToTable("Favorites");
                 });
 
-            modelBuilder.Entity("Conduit.Application.Entities.FollowUser", b =>
+            modelBuilder.Entity("Conduit.Domain.Entities.FollowUser", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -147,7 +147,7 @@ namespace Conduit.Infrastructure.Migrations
                     b.ToTable("FollowUsers");
                 });
 
-            modelBuilder.Entity("Conduit.Application.Entities.Tag", b =>
+            modelBuilder.Entity("Conduit.Domain.Entities.Tag", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -162,7 +162,7 @@ namespace Conduit.Infrastructure.Migrations
                     b.ToTable("Tags");
                 });
 
-            modelBuilder.Entity("Conduit.Application.Entities.User", b =>
+            modelBuilder.Entity("Conduit.Domain.Entities.User", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -172,7 +172,7 @@ namespace Conduit.Infrastructure.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Bio")
-                        .HasColumnType("Text");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
@@ -182,7 +182,6 @@ namespace Conduit.Infrastructure.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Email")
-                        .IsRequired()
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
 
@@ -206,10 +205,6 @@ namespace Conduit.Infrastructure.Migrations
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
 
-                    b.Property<string>("Password")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("PasswordHash")
                         .HasColumnType("nvarchar(max)");
 
@@ -228,10 +223,6 @@ namespace Conduit.Infrastructure.Migrations
                     b.Property<string>("UserName")
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
-
-                    b.Property<string>("Username")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
@@ -379,22 +370,22 @@ namespace Conduit.Infrastructure.Migrations
 
             modelBuilder.Entity("ArticleTag", b =>
                 {
-                    b.HasOne("Conduit.Application.Entities.Article", null)
+                    b.HasOne("Conduit.Domain.Entities.Article", null)
                         .WithMany()
                         .HasForeignKey("ArticlesId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Conduit.Application.Entities.Tag", null)
+                    b.HasOne("Conduit.Domain.Entities.Tag", null)
                         .WithMany()
                         .HasForeignKey("TagsId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Conduit.Application.Entities.Article", b =>
+            modelBuilder.Entity("Conduit.Domain.Entities.Article", b =>
                 {
-                    b.HasOne("Conduit.Application.Entities.User", "Author")
+                    b.HasOne("Conduit.Domain.Entities.User", "Author")
                         .WithMany("Articles")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -403,18 +394,18 @@ namespace Conduit.Infrastructure.Migrations
                     b.Navigation("Author");
                 });
 
-            modelBuilder.Entity("Conduit.Application.Entities.Comment", b =>
+            modelBuilder.Entity("Conduit.Domain.Entities.Comment", b =>
                 {
-                    b.HasOne("Conduit.Application.Entities.Article", "Article")
+                    b.HasOne("Conduit.Domain.Entities.Article", "Article")
                         .WithMany("Comments")
                         .HasForeignKey("ArticleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Conduit.Application.Entities.User", "Author")
+                    b.HasOne("Conduit.Domain.Entities.User", "Author")
                         .WithMany("Comments")
                         .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
                     b.Navigation("Article");
@@ -422,18 +413,18 @@ namespace Conduit.Infrastructure.Migrations
                     b.Navigation("Author");
                 });
 
-            modelBuilder.Entity("Conduit.Application.Entities.Favorite", b =>
+            modelBuilder.Entity("Conduit.Domain.Entities.Favorite", b =>
                 {
-                    b.HasOne("Conduit.Application.Entities.Article", "Article")
+                    b.HasOne("Conduit.Domain.Entities.Article", "Article")
                         .WithMany("Favorites")
                         .HasForeignKey("ArticleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Conduit.Application.Entities.User", "User")
+                    b.HasOne("Conduit.Domain.Entities.User", "User")
                         .WithMany("Favorites")
                         .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
                     b.Navigation("Article");
@@ -441,15 +432,15 @@ namespace Conduit.Infrastructure.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("Conduit.Application.Entities.FollowUser", b =>
+            modelBuilder.Entity("Conduit.Domain.Entities.FollowUser", b =>
                 {
-                    b.HasOne("Conduit.Application.Entities.User", "FollowedUser")
+                    b.HasOne("Conduit.Domain.Entities.User", "FollowedUser")
                         .WithMany("FollowedUsers")
                         .HasForeignKey("FollowedUserId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("Conduit.Application.Entities.User", "Follower")
+                    b.HasOne("Conduit.Domain.Entities.User", "Follower")
                         .WithMany("Followers")
                         .HasForeignKey("FollowerId")
                         .OnDelete(DeleteBehavior.Restrict)
@@ -471,7 +462,7 @@ namespace Conduit.Infrastructure.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<System.Guid>", b =>
                 {
-                    b.HasOne("Conduit.Application.Entities.User", null)
+                    b.HasOne("Conduit.Domain.Entities.User", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -480,7 +471,7 @@ namespace Conduit.Infrastructure.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<System.Guid>", b =>
                 {
-                    b.HasOne("Conduit.Application.Entities.User", null)
+                    b.HasOne("Conduit.Domain.Entities.User", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -495,7 +486,7 @@ namespace Conduit.Infrastructure.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Conduit.Application.Entities.User", null)
+                    b.HasOne("Conduit.Domain.Entities.User", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -504,21 +495,21 @@ namespace Conduit.Infrastructure.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<System.Guid>", b =>
                 {
-                    b.HasOne("Conduit.Application.Entities.User", null)
+                    b.HasOne("Conduit.Domain.Entities.User", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Conduit.Application.Entities.Article", b =>
+            modelBuilder.Entity("Conduit.Domain.Entities.Article", b =>
                 {
                     b.Navigation("Comments");
 
                     b.Navigation("Favorites");
                 });
 
-            modelBuilder.Entity("Conduit.Application.Entities.User", b =>
+            modelBuilder.Entity("Conduit.Domain.Entities.User", b =>
                 {
                     b.Navigation("Articles");
 

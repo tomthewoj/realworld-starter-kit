@@ -1,12 +1,11 @@
-using Conduit.Application.Entities;
-using Conduit.Domain.Repositories;
+
+using Conduit.Application.Extensions;
+using Conduit.Domain.Entities;
 using Conduit.Infrastructure.Extensions;
 using Conduit.Infrastructure.Helpers;
-using Conduit.Infrastructure.Persistance;
-using Conduit.Infrastructure.Repositories;
+using Conduit.Infrastructure.Seeders;
 using Conduit.Infrastructure.Utils;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
@@ -16,6 +15,8 @@ using System.Text;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddInfrastructure(builder.Configuration);
+builder.Services.AddApplication();
+
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 //Swagger
@@ -52,7 +53,15 @@ builder.Services.AddSwaggerGen(c =>
     c.AddSecurityRequirement(securityRequirement);
 
 });
+//seeder sure
+
 ///CQRS MediatR
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(builder => builder.AllowAnyOrigin()
+                              .AllowAnyMethod()
+                              .AllowAnyHeader());
+});
 //builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
 var assemblies = Assembly.Load("Conduit.Application");
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(assemblies));
@@ -81,10 +90,15 @@ builder.Services.AddAuthorization();
 
 ///////////////////////////
 var app = builder.Build();
+
+var scope = app.Services.CreateScope();
+var seeder = scope.ServiceProvider.GetRequiredService<IUserSeeder>();
+await seeder.Seed();
 //Auth
 app.UseAuthentication();
 app.UseAuthorization();
-app.MapIdentityApi<User>();
+app.UseCors();
+
 
 app.UseDefaultFiles();
 app.UseStaticFiles();

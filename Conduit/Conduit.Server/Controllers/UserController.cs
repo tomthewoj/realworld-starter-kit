@@ -1,6 +1,6 @@
-﻿using Conduit.Application.Entities;
+﻿
 using Conduit.Application.Users.Commands.CreateUser;
-using Conduit.Application.Users.DTOs;
+using Conduit.Domain.Entities;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 namespace Conduit.API.Controllers
@@ -12,15 +12,10 @@ namespace Conduit.API.Controllers
         private readonly IMediator _mediator;
         public UserController(IMediator mediator) => _mediator = mediator;
 
-        [HttpPost("SignIn")]
-        public async Task<ActionResult> AddUser([FromBody] User user) //createuser jako parametr, createusercommand.create, 
+        [HttpPost("SignUp")]
+        public async Task<ActionResult> AddUser(CreateUserCommand user) //createuser jako parametr, createusercommand.create, 
         {
-            await _mediator.Send(new CreateUserCommand
-            {
-                Username = user.Username,
-                Email = user.Email,
-                Password = user.Password
-            });
+            await _mediator.Send(user);
             return Ok();
         }
     }

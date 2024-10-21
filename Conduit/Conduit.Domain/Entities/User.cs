@@ -1,21 +1,10 @@
-﻿using Microsoft.AspNetCore.Identity;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+using Microsoft.AspNetCore.Identity;
 
-namespace Conduit.Application.Entities
+namespace Conduit.Domain.Entities
 {
     public class User : IdentityUser<Guid>
     {
-        public string Username { get; set; } = default!;
-        public string Password { get; set; } = default!; //nie zapomnij o enkrypcji
-        public string Email { get; set; } = default!;
-
-        [Column(TypeName = "Text")] //EF fluent api
         public string? Bio { get; set; }
         public string? Image { get; set; }
 
@@ -26,4 +15,5 @@ namespace Conduit.Application.Entities
         public ICollection<Favorite> Favorites { get; set; } = new List<Favorite>();
         public ICollection<Comment> Comments { get; set; } = new List<Comment>();
     }
+
 }

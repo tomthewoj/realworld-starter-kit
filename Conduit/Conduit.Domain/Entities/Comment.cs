@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Reflection.Metadata;
 
-namespace Conduit.Application.Entities
+namespace Conduit.Domain.Entities
 {
     public class Comment (Guid userId, Guid articleId, string body)
     {

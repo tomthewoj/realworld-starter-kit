@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Conduit.Application.Entities
+namespace Conduit.Domain.Entities
 {
     public class Favorite (Guid userId, Guid articleId)
     {

@@ -1,15 +1,20 @@
-﻿using Conduit.Application.Entities;
-using Conduit.Application.Exceptions;
+﻿using Conduit.Application.Exceptions;
+using Conduit.Domain.Entities;
 using Conduit.Domain.Repositories;
 using MediatR;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Logging;
 
 namespace Conduit.Application.Users.Commands.CreateUser;
 
-internal class CreateUserCommandHandler(ILogger<CreateUserCommandHandler> log, IUserRepository userRepository) : IRequestHandler<CreateUserCommand, Guid>
+internal class CreateUserCommandHandler(ILogger<CreateUserCommandHandler> log, IUserRepository userRepository, UserManager<User> userManager) : IRequestHandler<CreateUserCommand>
 {
-    public async Task<Guid> Handle(CreateUserCommand request, CancellationToken cancelationToken) // abort execution with the token, na wszelki wypadek try catch, middleware do łapania, loguj wszystko na wszelki wypadek
+    private readonly UserManager<User> _userManager = userManager;
+
+
+    public async Task Handle(CreateUserCommand request, CancellationToken cancelationToken) // abort execution with the token, na wszelki wypadek try catch, middleware do łapania, loguj wszystko na wszelki wypadek
     {
+        
         if (await userRepository.UsernameExistsAsync(request.Username))
         {
             throw new UsernameAlreadyExistsException(request.Username);
@@ -21,13 +26,10 @@ internal class CreateUserCommandHandler(ILogger<CreateUserCommandHandler> log, I
         //do środka usera
         var NewUser = new User
         {
-            Username = request.Username,
-            Password = request.Password,
+            UserName = request.Username,
             Email = request.Email,
             CreatedAt = DateTime.Now
         };
-
-        Guid id = await userRepository.AddUserAsync(NewUser);
-        return id;
+        var result = await _userManager.CreateAsync(NewUser, request.Password);
     }
 }

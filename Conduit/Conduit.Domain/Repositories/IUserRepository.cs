@@ -1,10 +1,12 @@
-﻿using Conduit.Application.Entities;
+﻿
+using Conduit.Domain.Entities;
 
 namespace Conduit.Domain.Repositories;
 
 public interface IUserRepository
 {
-    Task<Guid> AddUserAsync(User user);
+    Task AddUserAsync(User user);
     Task<bool> UsernameExistsAsync(string username);
     Task<bool> EmailExistsAsync(string email);
+    Task<IEnumerable<User>> GetUsersAsync();
 }
